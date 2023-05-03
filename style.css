@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-links {
+color: black;
+font-size: 1rem;
+font-weight: 700;
+cursor: pointer;
+text-decoration: none;
+}
+
+.nav-link:hover {
+color: white;
+background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Main Sectio */
+
+.main {
+    background: url(asset/red.jpg) no-repeat;
+    background-size: contain;
+    width: 62%;
+    height: 100vh;
+}
+
+
+.main h3 {
+    font-size: 4.4vw;
+    font-weight: 700;
+}
+
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 4px solid rgb(233, 20, 109);
+    width: 41%;
+}
+
+.main .bt1 {
+    height: 70px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    outline: black;
+    border: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover {
+background-color: lightpink;
+transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 100%;
+
+    -webkit-box-shadow: 11px 40px 97px -159px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 40px 97px -159px rgba(0,0,0,0.75);
+    box-shadow: 11px 40px 97px -159px rgba(0,0,0,0.75);
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: yellow;
+    height: 31px;
+    width: 0;
+}
+
+.progress p {
+    color: black;
+    padding: 12px;
+}
+.pro-value2 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: lightblue;
+    height: 31px;
+    width: 0;
+}
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.progress p {
+    color: black;
+    padding: 12px;
+}
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.btn1 {
+    height: 40px;
+    width: 165px;
+    outline: none;
+    border: none;background-color: orange;
+    color: black;
+    border-radius: 6px;
+}
+.btn1:hover {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid black;
+    transition: 0.5;
+
+}
+  
+  h1.text-center.pb-5 {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  div.col-lg-6.py-5.mr-auto h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  h6.pt-3 {
+    font-family:'Dongle', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .about img {
+    -webkit-box-shadow: 25px 25px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 25px 25px 51px -11px rgba(0,0,0,0.75);
+    box-shadow: 25px 25px 51px -11px rgba(0,0,0,0.75);
+  }
+
+  .card {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 15px -5px 28px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px -5px 28px -6px rgba(0,0,0,0.75);
+    box-shadow: 15px -5px 28px -6px rgba(0,0,0,0.75);
+  }
+
+  .card p {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    font-size: small;
+    display: inline-block;
+    margin: 20px;
+     }
+
+     .circle:hover {
+        background-color: transparent;
+        transition: 0.4s;
+        color: black;
+     }
+
+     .circle {
+        height: 70px;
+        width: 70px;
+        background-color: black;
+        color: orange;
+        padding: 12px;
+        font-size: 30px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: 20px;
+
+     }
+
+     .contact .btn3 {
+        background-color: black;
+        color: white;
+        outline: none;
+        border: none;
+        height: 40px;
+        width: 140px;
+        border-radius: 4px;
+
+     }
+
+     .btn3:hover {
+        background-color: orange;
+        transition: 0.4s;
+        color: black;
+     }
+
+     footer {
+        background-color: gray;
+        color: white;
+      }
+      .linkedin-icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #0077b5; 
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 10px;
+        transition: all 0.3s ease;
+      }
+      
+      .linkedin-icon:hover {
+        background-color: grey;
+      }
+      
+      .linkedin-icon i {
+        font-size: 24px;
+      }
+      
+      .github-icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 10px;
+        transition: all 0.3s ease;
+      }
+      
+      .github-icon:hover {
+        background-color: #6e5494; 
+      }
+      
+      .github-icon i {
+        font-size: 24px;
+      }
+      
+      .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; 
+        height: 0;
+        overflow: hidden;
+      }
+      
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      
+      
+
+
+  
+  
