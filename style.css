@@ -32,7 +32,7 @@ background-color: black;
 /* Main Sectio */
 
 .main {
-    background: url(asset/red.jpg) no-repeat;
+    background: url(./asset/red.jpg) no-repeat;
     background-size: contain;
     width: 62%;
     height: 100vh;
